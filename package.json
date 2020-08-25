@@ -1,0 +1,16 @@
+{
+  "name": "shadowsocks-manager-pkg",
+  "version": "0.1.0",
+  "repository": "git@github.com:geekdada/shadowsocks-manager-pkg.git",
+  "author": "Roy Li <me@dada.li>",
+  "license": "MIT",
+  "scripts": {
+    "build": "./scripts/build.js"
+  },
+  "devDependencies": {
+    "execa": "^4.0.3",
+    "fs-extra": "^9.0.1",
+    "pkg": "^4.4.9",
+    "shadowsocks-manager": "^0.36.40"
+  }
+}
